@@ -1,25 +1,30 @@
 # GatePass — Code Review
 
-This public repository is a sanitized review copy of GatePass, an appointment-booking product for container terminal visits.
+GatePass is an appointment-booking product for container terminal visits. This public repository is a sanitized, curated review copy of the private development project.
 
-The original development repository remains private. This copy is intended for portfolio and technical review. It contains representative production code, product/domain documentation, shared UI components, authentication/data-access patterns, and the main booking/review flows. Private collaboration documents, local environment files, credentials, deployment secrets, and internal development history are intentionally excluded.
+It is intended for portfolio and technical review rather than deployment. The files here are real implementation and product-reference files selected to show product logic, data access, reusable interface patterns, and the booking domain without exposing private collaboration material or environment configuration.
 
-## What to review
+## Good places to start
 
-- `src/app/BookAppointment/` — booking input and container handling
-- `src/app/BookingReview/` — review and retry flow
-- `src/components/` — reusable interface components
-- `src/lib/` — authentication and Supabase access
-- `src/styles/` — design tokens and global styling
-- `docs/domain/` — product model and relationships
-- `docs/technical/` — technical architecture notes
+- `docs/domain/GatePass_Product_Handbook_v2.0.md` — product concepts, rules and booking lifecycle
+- `docs/technical/GatePass_Technical_Architecture_Reference.md` — technical foundation
+- `src/app/BookAppointment/getBookAppointmentData.js` — terminal and move-type data composition
+- `src/app/BookAppointment/ContainerChip/` — validated container presentation and removal behaviour
+- `src/components/AppointmentCard/` — appointment state, actions and presentation logic
+- `src/lib/supabase/` — browser/server data clients
+- `src/lib/auth/` — authentication helper
+- `src/styles/tokens.css` — shared design values
 
 ## Stack
 
-Next.js • React • Supabase • CSS design tokens
+Next.js • React • Supabase • Vanilla CSS • CSS design tokens
 
-## Live product
+## What is intentionally not included
 
-https://gate-pass-v2.vercel.app
+- environment files and deployment secrets
+- credentials or passwords
+- private collaboration/AI working documents
+- internal development instructions and project history
+- every screen and implementation file from the private repository
 
-This repository is a review snapshot, not the deployment source of truth.
+The live product and portfolio case study are the best places to experience the complete application. This repository exists to make the implementation and product thinking reviewable without making the working source repository public.
