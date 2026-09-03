@@ -1,0 +1,126 @@
+:root {
+  /* Brand */
+  --color-primary: #0767ab;
+  --color-primary-hover: #076cb5;
+  --color-primary-pressed: #05568f;
+  --color-contrast: #a09200;
+  --color-contrast-hover: #a5980a;
+  --color-contrast-pressed: rgb(160, 147, 1);
+
+  /* Surfaces */
+  --surface-page: #f5f5f3;
+  --surface-page-light: #fafafa;
+  --surface-default: #ffffff;
+  --surface-subtle: #fafafa;
+  --surface-section: #f0f0ed;
+  --surface-raised: #ffffff;
+  --surface-overlay: rgba(0, 0, 0, 0.56);
+  --surface-inverse: #cccccc;
+
+  /* Text */
+  --text-primary: #222222;
+  --text-secondary: #555555;
+  --text-muted: #737373;
+  --text-inverse: #ffffff;
+  --text-on-contrast: #222222;
+  --text-disabled: #949494;
+  --text-link: #222222;
+
+  /* Borders */
+  --border-subtle: #e6e6e2;
+  --border-default: #cccccc;
+  --border-strong: #777777;
+  --border-focus: #222222;
+  --border-disabled: #dddddd;
+
+  /* Control states */
+  --control-disabled-background: #eeeeee;
+  --control-disabled-text: #949494;
+  --control-disabled-border: #dddddd;
+  --control-focus-ring: rgba(245, 226, 0, 0.55);
+
+  /* Semantic states */
+  --color-info: #1769aa;
+  --color-info-surface: #e8f2fb;
+  --color-success: #287a3d;
+  --color-success-surface: #e9f5ec;
+  --color-warning: #9a6100;
+  --color-warning-surface: #fff3d6;
+  --color-error: #b42318;
+  --color-error-surface: #fcebea;
+
+  /* Font families */
+  --font-family-ui: 'IBM Plex Sans', Arial, sans-serif;
+  --font-family-numeric: 'IBM Plex Mono', monospace;
+
+  /* Font sizes */
+  --font-size-xs: 0.75rem; /* 12px */
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-md: 1rem; /* 16px */
+  --font-size-lg: 1.125rem; /* 18px */
+  --font-size-xl: 1.25rem; /* 20px */
+  --font-size-2xl: 1.5rem; /* 24px */
+  --font-size-3xl: 1.875rem; /* 30px */
+  --font-size-4xl: 2.25rem; /* 36px */
+
+  /* Font weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Line heights */
+  --line-height-tight: 1.2;
+  --line-height-snug: 1.35;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.65;
+
+  /* Letter spacing */
+  --letter-spacing-tight: -0.02em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.02em;
+
+  /* Spacing */
+  --space-0: 0;
+  --space-1: 0.125rem; /* 2px */
+  --space-2: 0.25rem; /* 4px */
+  --space-3: 0.375rem; /* 6px */
+  --space-4: 0.5rem; /* 8px */
+  --space-5: 0.75rem; /* 12px */
+  --space-6: 1rem; /* 16px */
+  --space-7: 1.25rem; /* 20px */
+  --space-8: 1.5rem; /* 24px */
+  --space-9: 2rem; /* 32px */
+  --space-10: 2.5rem; /* 40px */
+  --space-11: 3rem; /* 48px */
+  --space-12: 4rem; /* 64px */
+
+  /* Border radii */
+  --radius-none: 0;
+  --radius-sm: 0.25rem; /* 4px */
+  --radius-md: 0.5rem; /* 8px */
+  --radius-lg: 0.75rem; /* 12px */
+  --radius-xl: 1rem; /* 16px */
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(34, 34, 34, 0.08);
+  --shadow-md: 0 4px 12px rgba(34, 34, 34, 0.12);
+  --shadow-lg: 0 10px 24px rgba(34, 34, 34, 0.16);
+  --shadow-overlay: 0 16px 40px rgba(34, 34, 34, 0.22);
+  --shadow-focus: 0 0 0 3px var(--control-focus-ring);
+
+  /* Control sizes */
+  --control-height-sm: 2rem; /* 32px */
+  --control-height-md: 2.5rem; /* 40px */
+  --control-height-lg: 3rem; /* 48px */
+  --touch-target-min: 2.5rem; /* 40px */
+
+  /* Layers */
+  --layer-base: 0;
+  --layer-sticky: 100;
+  --layer-dropdown: 200;
+  --layer-overlay: 300;
+  --layer-modal: 400;
+  --layer-toast: 500;
+}
